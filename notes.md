@@ -71,6 +71,7 @@ When you introduce some potential improvements to your code, you might either se
 There is horizontal and vertical scaling. Remember that there are some extra factors, eg cost of such solution, that need to be taken into account when picking the ways of potential improvement.
 
 # 21
+Given a choice of Fast, Cheap, or Right, you can always pick up to two of those.
 
 # 22
 There are some low hanging fruits when trying to improve performance. 
@@ -87,7 +88,10 @@ Another good idea is to upgrading all components of your system to the latest ve
 For example in 2020 the OTP team introduced JIT Just in time compiler, which makes wonders performencewise without any need of changes in your code!
 
 # 26
-And last but not least if everything fails it remains nothing but to find a new job, where you can start your performance crusade from square one.
+Sometimes there is just no way around execution time of something. If a user needs to wait for something, make sure that they are under the impression that the work is happening and it is not just that the program is hanging. You probably know it as a waiting circle, or some kind of loading bar. 
 
 # 27
+And last but not least if everything fails it remains nothing but to find a new job, where you can start your performance crusade from square one.
+
+# 28
 Thank you for your attention!

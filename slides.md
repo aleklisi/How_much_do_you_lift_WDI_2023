@@ -130,7 +130,11 @@ class: middle, center
 
 ---
 class: middle, center
-# System components upgrade
+# Upgrade it all
+
+---
+# Approach from different angle
+.scale60[![meme](images/loading_screen.gif)]
 
 ---
 # If everything else fails,...
