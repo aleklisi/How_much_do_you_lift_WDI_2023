@@ -119,6 +119,14 @@ Pulling:
 .scale100[![meme](images/dogscience.png)]
 
 ---
+# Cache
+.scale100[![meme](images/cache.png)]
+
+---
+class: middle, center
+# System components upgrade
+
+---
 # If everything else fails,...
 .scale100[![meme](images/open-candidates-blog-share.jpg)]
 
