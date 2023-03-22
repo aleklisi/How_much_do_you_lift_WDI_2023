@@ -1,5 +1,5 @@
 # 1
-Hello and welcome! My name is Aleksander Lisiecki and I work at Erlang Solutions, as an Erlang and Elixir consultant.
+Hello and welcome! My name is Aleksander Lisiecki and I work at Erlang Solutions, as an Erlang and Elixir consultant. On this slide you can see how te reach me out on social media.
 
 # 2
 In this presentation, I am going to talk about performance of computer programs:
