@@ -91,11 +91,10 @@ For example in 2020 the OTP team introduced JIT Just in time compiler, which mak
 Sometimes there is just no way around execution time and a user just needs to wait. If a user needs to wait for something, make sure that they are under the impression that the work is happening and it is not just that the program is hanging. You probably know it as a waiting circle, or some kind of loading bar. 
 
 # 27
-As a developer you do not always have influence on what the requirement are and how the final product will look like, but sometimes you do have a saying in it. I would like to inspire you by gaming industry which is known for all sorts of creative solutions and workarounds.
+As a developer you do not always have influence on what the requirement are and how the final product will look like, but sometimes you do have a saying in it. I would like to inspire you by gaming industry which is known for all sorts of creative solutions and workarounds. I do not remember the game title, bu I recall that in one of more popular games, riding on a horse was implemented as wearing a hat. In other words, a horse was considered a special kind of hat. Which is both genius and madness in the same time.
 
 # 28
 Sometimes we need to ask if something is really needed, or can it dropped completely or somehow modified to have smaller impact? For example, let's think of profile photos on Facebook, Instagram, Linkedin or Twitter. Do you need them to be in Full HD or 4k or os 400 by 400 pixels sufficient enough? As they are always displayed small anyways?
-
 
 # 29
 And last but not least if everything fails it remains nothing but to find a new job, where you can start your performance crusade from square one.
