@@ -1,5 +1,5 @@
 # 1
-Hello and welcome! My name is Aleksander Lisiecki and I work at Erlang Solutions, as an Erlang and Elixir consultant. On this slide you can see how te reach me out on social media.
+Hello and welcome! My name is Aleksander Lisiecki and I work at Erlang Solutions, as an Erlang and Elixir consultant. On the first slide you can see how to find me on social media.
 
 # 2
 In this presentation, I am going to talk about performance of computer programs:
@@ -10,7 +10,7 @@ In this presentation, I am going to talk about performance of computer programs:
 # 3
 But, first thing first, we need to somehow, intuitively understand what performance is.
 Try thinking about it as an ability of a system to handle certain load.
-For example, there are only two people visiting my hypothetical blog, me and my mum, my server can handle 3 users so it performs well. Now if you all , assuming that there is more then one person watching this talk, from the audience of this talk were suddenly to open this, not existing blog, you would notice that, for some of you, this website just would not work. This is because you would exceed capacity of the server that host this blog.
+For example, there are only two people visiting my hypothetical blog, me and my mum, my server can handle 3 users so it performs well. Assuming that there is more then one person watching this talk, if you all suddenly open this, not existing, blog you would notice that, for some of you, this website just would not work. This is because you would exceed capacity of the server that host this blog.
 
 # 4
 Before we dive, head first into the main subject, I have 2 disclaimers. First one is that I am not sponsored by any of the companies to promote their products. I share with you, what works for me.
