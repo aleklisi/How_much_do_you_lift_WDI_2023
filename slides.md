@@ -137,6 +137,17 @@ class: middle, center
 .scale60[![meme](images/loading_screen.gif)]
 
 ---
+class: middle, center
+# If the game does not go well, throw the table up side down
+
+---
+# Do I really need this functionality?
+
+Patient: "Doctor, it hurts when I do this."
+
+Doctor: "Then stop doing it."
+
+---
 # If everything else fails,...
 .scale100[![meme](images/open-candidates-blog-share.jpg)]
 

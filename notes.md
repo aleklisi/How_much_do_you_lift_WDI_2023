@@ -10,13 +10,13 @@ In this presentation, I am going to talk about performance of computer programs:
 # 3
 But, first thing first, we need to somehow, intuitively understand what performance is.
 Try thinking about it as an ability of a system to handle certain load.
-For example, there are only two people visiting my hypothetical blog, me and my mum, my server can handle 3 users so it performs well.
+For example, there are only two people visiting my hypothetical blog, me and my mum, my server can handle 3 users so it performs well. Now if you all , assuming that there is more then one person watching this talk, from the audience of this talk were suddenly to open this, not existing blog, you would notice that, for some of you, this website just would not work. This is because you would exceed capacity of the server that host this blog.
 
 # 4
 Before we dive, head first into the main subject, I have 2 disclaimers. First one is that I am not sponsored by any of the companies to promote their products. I share with you, what works for me.
 
 # 5
-And the second disclaimer is, that I try to keep my presentation technology-agnostic, that means that no matter if you code in Python, Java, Scala, Erlang or any other programming language, I hope this talk will be of some use for you. This also means I will not discuss technology-specific options that are there, like language specific profilers, compiler options etc.
+And the second disclaimer is, that I try to keep my presentation mostly technology-agnostic, that means that no matter if you code in Python, Java, Scala, Erlang or any other programming language, I hope this talk will be of some use for you. This also means I will not discuss technology-specific options that are there, like language specific profilers, compiler options etc.
 
 # 6
 I hope most, if not all of you recognize this meme, which is also one of the most important ideas of mechanical engineering. Now let's modify that slightly to fit load testing purpose.
@@ -56,7 +56,7 @@ Collecting raw data is only part of success, as it is equally important to prese
 Having the metrics plugged in, now is the time to see how your system behaviors under the load. I obviously encourage you to observe production environment, but not necessarily run your tests there, unless you work in mBank, then you do it already anyways. For running the load test, prepare a separate test environment, and add load to it by implementing clients simulator, which will emulate whatever your clients do.
 
 # 16
-For the client's emulation I would recommend using Erlang or Elixir. This is because, each client can be emulated by a separate process. Since these processes are running on VM level and not OS level, they are extremely lightweight and it is almost effortless to start and potentially run literally millions of them in parallel or at least concurrently.
+For the client's emulation I would recommend using Erlang or Elixir. This is because, each client can be emulated by a separate process. Since these processes are running on VM level and not OS level, they are extremely lightweight and it is almost effortless to start and potentially run literally millions of them in parallel or at least concurrently. If you want to know more about load testing there is a talk by my college Nelson Vides from FOSDEM 2023 titled "The actor model as a load testing framework".
 
 # 17
 Assuming that you have established your performance goals, implemented and ran load test or even multiple tests, there are two options. First option is that it works well enough then your job is done here, but if system does not work fast enough what do you do? For the technology of your choice find a library that implements collecting flame graph data and plug it to the most used execution paths in your program.
@@ -85,13 +85,20 @@ Cache is component that stores data so future requests for that data can be serv
 
 # 25
 Another good idea is to upgrading all components of your system to the latest version. From my own field just upgrading Erlang OTP version, recompiling the same code to the new VM and running it there usually brings performance improvements.
-For example in 2020 the OTP team introduced JIT Just in time compiler, which makes wonders performencewise without any need of changes in your code!
+For example in 2020 the OTP team introduced JIT Just in time compiler, which makes wonders performance wise without any need of changes in your code!
 
 # 26
-Sometimes there is just no way around execution time of something. If a user needs to wait for something, make sure that they are under the impression that the work is happening and it is not just that the program is hanging. You probably know it as a waiting circle, or some kind of loading bar. 
+Sometimes there is just no way around execution time and a user just needs to wait. If a user needs to wait for something, make sure that they are under the impression that the work is happening and it is not just that the program is hanging. You probably know it as a waiting circle, or some kind of loading bar. 
 
 # 27
-And last but not least if everything fails it remains nothing but to find a new job, where you can start your performance crusade from square one.
+As a developer you do not always have influence on what the requirement are and how the final product will look like, but sometimes you do have a saying in it. I would like to inspire you by gaming industry which is known for all sorts of creative solutions and workarounds.
 
 # 28
+Sometimes we need to ask if something is really needed, or can it dropped completely or somehow modified to have smaller impact? For example, let's think of profile photos on Facebook, Instagram, Linkedin or Twitter. Do you need them to be in Full HD or 4k or os 400 by 400 pixels sufficient enough? As they are always displayed small anyways?
+
+
+# 29
+And last but not least if everything fails it remains nothing but to find a new job, where you can start your performance crusade from square one.
+
+# 30
 Thank you for your attention!
