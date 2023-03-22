@@ -67,8 +67,11 @@ Pulling:
 
 ---
 # Pulling vs pushing
-
 .scale80[![meme](images/pull_push_image.jpeg)]
+
+---
+class: middle, center
+# "Just add metrics" - easier said then done...
 
 ---
 # Data visualization - Grafana
@@ -109,6 +112,9 @@ Pulling:
 - Vertical
 
 .scale100[![meme](images/horizosntal_vs_verical-scaling.png)]
+
+---
+.scale60[![meme](images/fast_good_and_cheap.png)]
 
 ---
 # Vertical scaling
